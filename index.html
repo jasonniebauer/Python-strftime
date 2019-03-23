@@ -11,11 +11,14 @@
   </head>
   <body class="py-4 bg-dark">
     <header class="m-auto px-2 py-4" style="max-width:900px;">
-      <h1 class="text-white">Python <code>strftime</code></h1>
+      <h1 class="mb-4 text-white">Python <code>strftime</code></h1>
+      <iframe class="mr-1" src="https://ghbtns.com/github-btn.html?user=jasonniebauer&repo=Python-strftime&type=star" frameborder="0" scrolling="0" width="51px" height="20px"></iframe>
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20pythonstrftime.com" data-size="small">Tweet</a>
     </header>
-    <div class="m-auto p-2" style="max-width:900px;">
-      <h3 class="text-white">Date</h3>
-    </div>
+    <section class="py-4">
+      <div class="m-auto p-2" style="max-width:900px;">
+        <h3 class="text-white">Date</h3>
+      </div>
       <table class="table table-dark table-striped m-auto" style="max-width:900px;">
         <thead class="">
           <tr>
@@ -78,7 +81,7 @@
           <tr>
             <th scope="row">%Y</th>
             <td>Year with century as a decimal number.</td>
-           <td>2013</td>
+            <td>2013</td>
         </tr>
       </tbody>
     </table>
@@ -196,5 +199,23 @@
           </tr>
         </tbody>
       </table>
+    </section>
+    <!-- Twitter: Tweet button -->
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+    
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
   </body>
 </html>
